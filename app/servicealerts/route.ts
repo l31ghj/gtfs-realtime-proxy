@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export const maxDuration = 5;
 export const revalidate = 60;
 
-const FETCH_URL = 'https://svc.metrotransit.org/mtgtfs/alerts.pb';
+const FETCH_URL = 'https://gtfsrt.api.translink.com.au/api/realtime/SEQ/alerts';
 const FETCH_HEADERS = {};
 const FETCH_TIMEOUT_MS = 2000;
 
